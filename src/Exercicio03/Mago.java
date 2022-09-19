@@ -2,7 +2,7 @@ package Exercicio03;
 
 import java.util.List;
 
-public class Mago {
+public class Mago extends Personagem {
 
     List<String> Magia;
 
