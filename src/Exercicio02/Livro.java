@@ -1,11 +1,16 @@
 package Exercicio02;
 
-public class Livro {
+public  class Livro {
+
     String autor;
-    String terma;
-    int qtdPag;
+    String tema;
 
     public Livro() {
+    }
+
+    public Livro(String autor, String tema) {
+        this.autor = autor;
+        this.tema = tema;
     }
 
     public String getAutor() {
@@ -16,19 +21,11 @@ public class Livro {
         this.autor = autor;
     }
 
-    public String getTerma() {
-        return terma;
+    public String getTema() {
+        return tema;
     }
 
-    public void setTerma(String terma) {
-        this.terma = terma;
-    }
-
-    public int getQtdPag() {
-        return qtdPag;
-    }
-
-    public void setQtdPag(int qtdPag) {
-        this.qtdPag = qtdPag;
+    public void setTema(String tema) {
+        this.tema = tema;
     }
 }

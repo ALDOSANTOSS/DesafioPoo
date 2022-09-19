@@ -1,6 +1,6 @@
 package Exercicio02;
 
-public class VideoGame {
+public abstract  class VideoGame extends Produto {
     String marca;
     String modelo;
     boolean Usando;

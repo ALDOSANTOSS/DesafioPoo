@@ -1,11 +1,17 @@
 package Exercicio02;
 
-public class Produto {
+public abstract class Produto extends Livro {
     String nome;
     double preco;
     int qtd;
 
     public Produto() {
+    }
+
+    public Produto(String nome, double preco, int qtd) {
+        this.nome = nome;
+        this.preco = preco;
+        this.qtd = qtd;
     }
 
     public String getNome() {
@@ -31,5 +37,6 @@ public class Produto {
     public void setQtd(int qtd) {
         this.qtd = qtd;
     }
+
 }
 

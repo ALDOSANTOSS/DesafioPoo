@@ -26,10 +26,6 @@ public class Veiculo {
         this.preco = preco;
     }
 
-    public String getMarca() {
-        return marca;
-    }
-
     public void setMarca(String marca) {
         this.marca = marca;
     }
@@ -124,11 +120,13 @@ public class Veiculo {
     void pintar(){
     }
     void ligar(){
-        this.ligado = true;
+
+        System.out.println("Está ligando");
     }
     void desligar(){
-        this.ligado = false;
+        System.out.println("Está desligando");
     }
+
 
 
 }
