@@ -27,6 +27,8 @@ public class PessoaTesT {
                 .filter(i -> i.getIdade() >= 18).toList();
         System.out.println("O resto de pessoas: " + Pessoa.size());
 
+        //Exercicio06
+
 
         List<Pessoa> pessoas1 = pessoas.stream()
                 .filter(i -> i.getNome().equalsIgnoreCase("Jessica"))
